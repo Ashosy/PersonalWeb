@@ -1,0 +1,46 @@
+.name{
+    font-family: Open Sans;
+    /* font-size: 55px; */
+    font-weight: bold;
+    color: #585858;
+    margin-bottom: 18px;
+    /* letter-spacing: 4px; */
+}
+.container{
+    /* border: 3px solid blue; */
+    margin-top: 20px;
+}
+.container1{
+    margin: auto;
+    /* border: 3px solid gold; */
+    width: 50%;
+}
+.heading{
+    color: indigo;
+    font-size: 15px;
+}
+.heading:hover{
+    color:  rgb(169, 73, 238);
+    text-decoration: none;
+}
+.body{
+    /* border: 3px solid navy; */
+    width: 70%;
+    margin-left: 160px;
+}
+.description{
+    font-size: 17px;
+    font-family: Open Sans;
+    line-height: 28px;
+
+}
+.link{
+    color: indigo;
+    text-decoration: none;
+    font-weight: bold;
+}
+.link:hover{
+    color: rgb(169, 73, 238);
+    text-decoration: none;
+    font-weight: bold;
+}
