@@ -62,3 +62,12 @@
 ::placeholder{
     padding-left: 13px;
 }
+.social{
+    width: 4%;
+    height: 30vh;
+    border: 3px solid indigo;
+    background-color:indigo;
+    margin-left: 0px;
+    margin-top: 182px;
+    position: fixed;
+}
