@@ -86,6 +86,57 @@
 .fa:hover{
     font-size: 36px;
 }
+.body{
+    /* border: 3px solid navy; */
+    width: 70%;
+    margin-left: 160px;
+}
+.name{
+    font-family: Open Sans;
+    /* font-size: 55px; */
+    font-weight: bold;
+    color: #585858;
+    margin-bottom: 18px;
+    /* letter-spacing: 4px; */
+}
+.name2{
+    font-family: Open Sans;
+    font-size: 30px;
+    font-weight: bold;
+    color: #585858;
+    margin-bottom: 32px;
+    margin-top: 32px;
+
+}
+.categ{
+    margin-left: 12px;
+    background-color:  rgb(234, 214, 248);
+    border: 2px solid  rgb(234, 214, 248);
+    border-radius: 4px;
+    color: rgb(129, 62, 177);
+    cursor: pointer;
+    font-size: 19px;
+    font-weight: bold;
+}
+.categ:focus{
+    outline: none;
+    border: none;
+    box-shadow: 0 0 4px violet;
+}
+.exp{
+    font-family: Open Sans;
+    font-size: 22px;
+    font-weight: bold;
+    color: indigo;
+    margin-bottom: 18px;
+    margin-top: 32px;
+}
+.story{
+    font-family: Open Sans;
+    font-size: 16px;
+    line-height: 29px;
+
+}
 @media screen and (max-width: 600px){
     .body{
         margin-left: 30px;
