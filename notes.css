@@ -94,7 +94,50 @@
 .fa:hover{
     font-size: 36px;
 }
-@media screen and (max-width: 600px){
+.nav{
+    /* border: 2px solid firebrick; */
+    float: right;
+    line-height: 70px;
+    height: 70px;
+}
+a{
+    line-height: 30px;
+    /* display: block; */
+}
+label{
+    margin: 0 40px 0 0;
+    font-size: 26px;
+    display: none;
+}
+#toggle{
+    display: none;
+}
+@media screen and (max-width: 1100px){
+    label{
+        margin-top: -70px;
+        display: block;
+        cursor: pointer;
+        color: indigo;
+    }
+    #toggle:checked + .container1{
+        display: block;
+        /* color: indigo; */
+    }
+    .container1{
+        display: none;
+        /* color: white; */
+     
+    }
+    /* .row a{
+        display: block;
+    } */
+    .container{
+        margin-top: 63px;
+    }
+    .fa:hover{
+        font-size: 14px;
+        margin-left: 4px;
+    }
     .body{
         margin-left: 30px;
         width: 90%;

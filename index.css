@@ -6,6 +6,7 @@
     margin: auto;
     /* border: 3px solid gold; */
     width: 50%;
+  
 }
 .heading{
     color: indigo;
@@ -62,6 +63,9 @@
 ::placeholder{
     padding-left: 13px;
 }
+.email-input:focus{
+    outline-color:rgb(169, 73, 238);
+}
 .social{
     width: 3.5%;
     height: 42vh;
@@ -104,8 +108,53 @@
 .fa:hover{
     font-size: 36px;
 }
+.nav{
+    /* border: 2px solid firebrick; */
+    float: right;
+    line-height: 70px;
+    height: 70px;
+}
+a{
+    line-height: 30px;
+    /* display: block; */
+}
 
-@media screen and (max-width: 600px){
+label{
+    margin: 0 40px 0 0;
+    font-size: 26px;
+    display: none;
+}
+.container{
+    display: block;
+}
+#toggle{
+    display: none;
+}
+@media screen and (max-width: 1100px){
+    label{
+        color: indigo;
+        margin-top: -70px;
+        display: block;
+        cursor: pointer;
+    }
+    #toggle:checked + .container{
+        display: block;
+        /* color: indigo; */
+    }
+    .container1{
+        display: none;
+        /* color: white; */
+     
+    }
+    /* .row a{
+        display: block;
+    } */
+    .container{
+        margin-top: 63px;
+    }
+    
+    
+ 
     .body{
         margin-left: 30px;
         width: 90%;
@@ -114,8 +163,16 @@
         font-size: 18px;
         margin-left: 4px;
     }
+    .fa:hover{
+        font-size: 14px;
+        margin-left: 4px;
+    }
     .social{
         width: 30px;
         height: 37vh;
+    }
+    .row{
+        margin-left: 82px;
+        display: inline-block;
     }
 }
